@@ -127,17 +127,19 @@ nav .logo:hover img {
 }
 
 nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-    padding: 2rem 0;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 0;
+    width: auto;
     margin: 0;
     list-style: none;
+    align-items: center;
 }
 
 nav ul li {
-    width: 100%;
-    margin: 0.5rem 0;
+    margin: 0;
+    list-style: none;
 }
 
 nav a {
@@ -1468,7 +1470,7 @@ header.nav-open .hamburger-bar:nth-child(3) {
     }
 
     nav ul li a {
-        font-family: 'Kaushan Script', cursive;
+        font-family: 'Lora', 'Georgia', 'Times New Roman', serif;
         font-size: 2.2rem;
         font-weight: 600;
         color: var(--secondary-color);
