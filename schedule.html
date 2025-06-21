@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - Bailamos Bachata Festival</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Kaushan+Script&family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700;900&family=Dancing+Script:wght@400;500;600;700&family=Lora:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="schedule-page loaded">
+    <header>
+        <nav>
+            <a href="index.html" class="logo">
+                <img src="bailamos-logo.png" alt="Bailamos Marrakech Festival">
+            </a>
+            <div class="nav-links">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="artists.html">Artists</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="schedule.html">Schedule</a></li>
+                    <li><a href="venue.html">Venue</a></li>
+                    <li><a href="previous_versions.html">Previous Versions</a></li>
+                </ul>
+            </div>
+            <button class="hamburger">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="schedule-hero">
+            <div class="hero-content">
+                <h1>Festival Program</h1>
+                <h2>3 to 8 July 2025</h2>
+                <p>Get ready for an unforgettable week of dance, music, and adventure!</p>
+            </div>
+        </section>
+
+        <!-- Schedule Section -->
+        <section id="schedule-container">
+            <div class="schedule-tabs">
+                <button class="schedule-tab active" data-day="wednesday">Wednesday</button>
+                <button class="schedule-tab" data-day="thursday">Thursday</button>
+                <button class="schedule-tab" data-day="friday">Friday</button>
+                <button class="schedule-tab" data-day="saturday">Saturday</button>
+                <button class="schedule-tab" data-day="sunday">Sunday</button>
+                <button class="schedule-tab" data-day="monday">Monday</button>
+            </div>
+
+            <div class="schedule-content-wrapper">
+                <!-- Wednesday Panel -->
+                <div id="wednesday" class="schedule-day-panel active">
+                    <div class="day-schedule-grid">
+                        <div class="event-card">
+                            <div class="event-time">22:00 - 02:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-glass-cheers"></i>Welcome Party</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thursday Panel -->
+                <div id="thursday" class="schedule-day-panel">
+                    <div class="day-schedule-grid">
+                        <div class="event-card">
+                            <div class="event-time">10:00 - 20:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title special-event"><i class="fas fa-bus-alt"></i>Essaouira Day Trip</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">19:00 - 21:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-chalkboard-teacher"></i>Workshops</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">23:00 - 03:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-moon"></i>Night Party</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Friday Panel -->
+                <div id="friday" class="schedule-day-panel">
+                    <div class="day-schedule-grid">
+                        <div class="event-card">
+                            <div class="event-time">05:00 - 11:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title special-event"><i class="fas fa-cloud-sun"></i>Hot Air Balloon Ride</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">14:00 - 19:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title special-event"><i class="fas fa-map-marked-alt"></i>Marrakech City Tour</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">19:00 - 21:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-chalkboard-teacher"></i>Workshops</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">23:00 - 05:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-moon"></i>Night Party</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saturday Panel -->
+                <div id="saturday" class="schedule-day-panel">
+                    <div class="day-schedule-grid">
+                        <div class="event-card">
+                            <div class="event-time">11:00 - 16:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-chalkboard-teacher"></i>Workshops</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">15:00 - 20:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-water"></i>Pool Party</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">23:00 - 00:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-star"></i>Shows</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">00:00 - 06:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-moon"></i>Night Party</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sunday Panel -->
+                <div id="sunday" class="schedule-day-panel">
+                    <div class="day-schedule-grid">
+                        <div class="event-card">
+                            <div class="event-time">11:00 - 16:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title special-event"><i class="fas fa-trophy"></i>Jack & Jill Competition</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">16:00 - 20:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-water"></i>Pool Party</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">22:00 - 04:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title special-event"><i class="fas fa-glass-martini-alt"></i>White Party at Snob Beach</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Monday Panel -->
+                <div id="monday" class="schedule-day-panel">
+                    <div class="day-schedule-grid">
+                        <div class="event-card">
+                            <div class="event-time">12:00 - 19:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title special-event"><i class="fas fa-binoculars"></i>Agafay Desert Experience</h4>
+                            </div>
+                        </div>
+                        <div class="event-card">
+                            <div class="event-time">21:00 - 01:00</div>
+                            <div class="event-details">
+                                <h4 class="event-title"><i class="fas fa-moon"></i>Night Party</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-aurora">
+            <div class="aurora-dot"></div>
+            <div class="aurora-dot"></div>
+            <div class="aurora-dot"></div>
+        </div>
+        <div class="footer-content-modern">
+            <div class="footer-brand">
+                <img src="bailamos-logo.png" alt="Bailamos Marrakech Festival" class="footer-logo-img">
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/bailaimosfestival/" class="footer-social-link" target="_blank" rel="noopener noreferrer"><i class="icon-instagram"></i></a>
+                <a href="#" class="footer-social-link"><i class="icon-facebook"></i></a>
+            </div>
+            <div class="footer-text">&copy; 2024 Bailamos Bachata Festival - Marrakech</div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        const header = document.querySelector('header');
+        const body = document.querySelector('body');
+
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('nav-open');
+                header.classList.toggle('nav-open');
+                body.classList.toggle('nav-open');
+            });
+        }
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if (body.classList.contains('nav-open')) {
+                    navLinks.classList.remove('nav-open');
+                    header.classList.remove('nav-open');
+                    body.classList.remove('nav-open');
+                }
+            });
+        });
+
+        // Header scroll effect
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Interactive Schedule Tabs
+        const tabs = document.querySelectorAll('.schedule-tab');
+        const panels = document.querySelectorAll('.schedule-day-panel');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Deactivate all tabs and panels
+                tabs.forEach(t => t.classList.remove('active'));
+                panels.forEach(p => p.classList.remove('active'));
+
+                // Activate clicked tab and corresponding panel
+                tab.classList.add('active');
+                const targetPanelId = tab.getAttribute('data-day');
+                document.getElementById(targetPanelId).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html> 
